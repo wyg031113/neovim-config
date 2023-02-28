@@ -29,4 +29,5 @@ keymap.set("n", "<leader>w", ":TagbarToggle<CR>")
 
 -- async
 keymap.set("n", "<leader>R", ":AsyncTask ")
+keymap.set("n", "<leader>c", ":cclose<CR> ")
 
