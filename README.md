@@ -1,6 +1,13 @@
 # nvim lua 配置文档
 ```bash
+#neovim lua guide
 https://neovim.io/doc/user/lua-guide.html
+
+# asynctask
+https://github.com/skywind3000/asynctasks.vim
+
+# asyncrun
+https://github.com/skywind3000/asyncrun.vim
 
 ```
 # 仓库源地址
