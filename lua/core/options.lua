@@ -34,7 +34,7 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 -- make
-opt.makeprg=".vscode/build.sh"
+--opt.makeprg=".vscode/build.sh"
 -- multi project 
 vim.o.exrc = false 
 vim.o.secure = true 
