@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim' -- 主题
   use 'crusoexia/vim-monokai'
+  use 'joshdick/onedark.vim'
   use {
     'nvim-lualine/lualine.nvim',  -- 状态栏
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }  -- 状态栏图标
@@ -62,6 +63,12 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim', tag = '0.1.1',  -- 文件检索
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+        end
+  }
+  use "skywind3000/asyncrun.vim"
+  use "skywind3000/asynctasks.vim"
   -- CPP
   use {
     'neoclide/coc.nvim',

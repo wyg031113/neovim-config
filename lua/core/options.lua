@@ -33,5 +33,9 @@ opt.smartcase = true
 -- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
+-- make
+opt.makeprg=".vscode/build.sh"
 --vim.cmd[[colorscheme tokyonight-moon]]
-vim.cmd[[colorscheme monokai]]
+--vim.cmd[[colorscheme monokai]]
+vim.cmd[[colorscheme onedark]]
+

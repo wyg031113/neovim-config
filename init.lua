@@ -1,6 +1,7 @@
 require("plugins.plugins-setup")
 
 require("core.options")
+require("core.keymaps")
 
 -- 插件
 require("plugins.lualine")
@@ -12,8 +13,8 @@ require("plugins/comment")
 require("plugins/autopairs")
 require("plugins/bufferline")
 require("plugins/gitsigns")
-require("plugins/telescope")
-require("plugins/telescope")
 require("plugins/coc-config")
+require("plugins/toggle-term")
+require("plugins/telescope")
+require("plugins/async")
 
-require("core.keymaps")
