@@ -1,3 +1,8 @@
+# nvim lua 配置文档
+```bash
+https://neovim.io/doc/user/lua-guide.html
+
+```
 # 仓库源地址
 ```bash
 B站: https://github.com/dansoncut/Neovim-Configuration-Tutorial

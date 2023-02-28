@@ -35,6 +35,9 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 -- make
 opt.makeprg=".vscode/build.sh"
+-- multi project 
+vim.o.exrc = false 
+vim.o.secure = true 
 --vim.cmd[[colorscheme tokyonight-moon]]
 --vim.cmd[[colorscheme monokai]]
 vim.cmd[[colorscheme onedark]]

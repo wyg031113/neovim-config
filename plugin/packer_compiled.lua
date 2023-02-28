@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/data0/huozai/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  ["exrc.nvim"] = {
+    loaded = true,
+    path = "/data0/huozai/.local/share/nvim/site/pack/packer/start/exrc.nvim",
+    url = "https://github.com/MunifTanjim/exrc.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/data0/huozai/.local/share/nvim/site/pack/packer/start/friendly-snippets",

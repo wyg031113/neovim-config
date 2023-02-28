@@ -67,6 +67,7 @@ return require('packer').startup(function(use)
         require("toggleterm").setup()
         end
   }
+  use 'MunifTanjim/exrc.nvim'
   use "skywind3000/asyncrun.vim"
   use "skywind3000/asynctasks.vim"
   -- CPP
