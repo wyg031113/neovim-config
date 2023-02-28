@@ -93,3 +93,27 @@ cd MyProject
 ~/Bazel_and_CompileCommands/setup_compile_commands.sh
 ~/Bazel_and_CompileCommands/create_compile_commands.sh {MyProjectTarget}
 ```
+
+# 版本
+```bash
+nvim --version
+NVIM v0.9.0-dev-fae7540
+Build type: Release
+LuaJIT 2.1.0-beta3
+
+lua -v
+Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
+
+clang --version
+clang version 14.0.6 (https://github.com/llvm/llvm-project.git f28c006a5895fc0e329fe15fead81e37457cb1d1)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/llvm/bin
+
+ ~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd -version
+clangd version 15.0.6 (https://github.com/llvm/llvm-project 088f33605d8a61ff519c580a71b1dd57d16a03f8)
+Features: linux+grpc
+Platform: x86_64-unknown-linux-gnu
+
+python3.10
+```
