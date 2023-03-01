@@ -1,3 +1,5 @@
+# 使用指南
+安装好neovim后，clone本项目到.config/nvim中。快捷键看keymaps.lua和coc-config.lua文件
 # nvim lua 配置文档
 ```bash
 #neovim lua guide

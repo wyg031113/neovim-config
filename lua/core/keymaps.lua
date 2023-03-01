@@ -19,15 +19,16 @@ keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直新增窗口
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- 切换buffer
-keymap.set("n", "<leader>L", ":bnext<CR>")
+keymap.set("n", "<leader>L", ":bnext<CR>") --移动到左边标签
 keymap.set("n", "<leader>H", ":bprevious<CR>")
 
 -- ---------- 插件 ---------- ---
 -- nvim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") --打开文件导航
 keymap.set("n", "<leader>w", ":TagbarToggle<CR>")
 
 -- async
-keymap.set("n", "<leader>R", ":AsyncTask ")
-keymap.set("n", "<leader>c", ":cclose<CR> ")
+keymap.set("n", "<leader>R", ":AsyncTask ") --异步运行task
+keymap.set("n", "<leader>cc", ":cclose<CR>") --关闭task运行后的quickfix窗口
+keymap.set("n", "<leader>c", ":copen<CR>") --打开quickfix窗口
 
