@@ -18,4 +18,5 @@ require("plugins/toggle-term")
 require("plugins/telescope")
 require("plugins/async")
 require("plugins/exrc")
+--require("plugins/github-theme")
 

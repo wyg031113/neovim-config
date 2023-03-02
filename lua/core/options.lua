@@ -40,5 +40,5 @@ vim.o.exrc = false
 vim.o.secure = true 
 --vim.cmd[[colorscheme tokyonight-moon]]
 --vim.cmd[[colorscheme monokai]]
-vim.cmd[[colorscheme onedark]]
+vim.cmd[[colorscheme arctic]]
 

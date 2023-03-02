@@ -27,6 +27,8 @@ return require('packer').startup(function(use)
   use 'folke/tokyonight.nvim' -- 主题
   use 'crusoexia/vim-monokai'
   use 'joshdick/onedark.vim'
+  use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })    
+  use {"rockyzhang24/arctic.nvim", requires = {"rktjmp/lush.nvim"}}
   use {
     'nvim-lualine/lualine.nvim',  -- 状态栏
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }  -- 状态栏图标
