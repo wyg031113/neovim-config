@@ -38,7 +38,8 @@ opt.signcolumn = "yes"
 -- multi project 
 vim.o.exrc = false 
 vim.o.secure = true 
---vim.cmd[[colorscheme tokyonight-moon]]
+--vim.cmd[[colorscheme tokyonight-night]]
+vim.cmd[[colorscheme onedark]]
 --vim.cmd[[colorscheme monokai]]
-vim.cmd[[colorscheme arctic]]
+--vim.cmd[[colorscheme arctic]]
 
